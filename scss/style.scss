@@ -1,0 +1,59 @@
+@import "variables.scss";
+@import "inicio.scss";
+@import "about.scss";
+@import "proyectos.scss";
+@import "contacto.scss";
+@import "servicios.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #191919;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+nav{
+    ul{
+        display: flex;
+
+        li{
+            list-style: none;
+            padding: 15px;
+            color: white;
+
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+
+nav ul li a:hover{
+    color: $naranja;
+}
+
+footer{
+    width: 100%;
+    background-color: #191919;
+    color: white;
+    position: absolute;
+    bottom: 0;
+
+    p{
+        padding: 25px;
+        text-align: center;
+    }
+}
+
+
+
